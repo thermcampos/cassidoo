@@ -2,8 +2,6 @@ import java.util.Map;
 import java.util.HashMap;
 
 class SolutionTwo {
-    private static final boolean DEBUG = false;
-
     public static void main(String[] args) {
         SolutionTwo s = new SolutionTwo();
         System.out.printf("- Input: D -> %d (expected %d)\n", s.romanToInt("D"), 500);
